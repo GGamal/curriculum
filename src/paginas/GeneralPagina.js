@@ -67,7 +67,7 @@ const GeneralPagina = (props) => {
                         <p> El mismo esta adaptado para poder ser visto tambien por el celular</p>
                         <div className="github">
                         <div>
-                           <a href="https://github.com/GGamal/CurriculVitae" target="_blank" rel="noreferrer"><img className="git" src="img/iconos/Mark.png" alt=""/></a>
+                           <a href="https://github.com/GGamal/curriculum" target="_blank" rel="noreferrer"><img className="git" src="img/iconos/Mark.png" alt=""/></a>
                         </div>
                         </div>
                        
@@ -80,7 +80,7 @@ const GeneralPagina = (props) => {
                         <p>Proximamente</p>
                         <div className="github">
                         <div>
-                           <a href="https://github.com/GGamal/curriculum" target="_blank" rel="noreferrer"><img className="git" src="img/iconos/Mark.png" alt=""/></a>
+                           <a href="https://github.com/GGamal" target="_blank" rel="noreferrer"><img className="git" src="img/iconos/Mark.png" alt=""/></a>
                         </div>
                         </div>
         
