@@ -13,7 +13,7 @@ function App() {
     <NavBar></NavBar>
     <Routes>
 
-      <Route  path="/" Component={GeneralPagina} />
+      <Route  path="/curriculum" Component={GeneralPagina} />
       
     </Routes>
 
