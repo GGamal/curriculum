@@ -3,6 +3,7 @@
     align-items: center;
     background-color:#001031;
     padding: 0rem 5rem 0rem 5rem;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -44,4 +45,21 @@
 
     }
    
+}
+
+@media(max-width: 960px){
+    .nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .iconogm{
+        display: none;
+    }
+
+}
+
+@media(max-width: 620px){
+    .nav{
+        display: none;
+    }
 }

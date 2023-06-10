@@ -377,6 +377,289 @@ body{
         background-image: url('./../../public/img/personaje/adventurer-idle-2-01.png');
     }
  } */
+ @media(max-width: 960px) {
+
+    .linkedin{
+        display: none;
+
+    }
+
+    .conth {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .conth section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+
+    }
+
+    .presentacion {
+        padding-top: 1rem;
+        text-align: center;
+
+    }
+
+    .nombre {
+        font-size: 3.3rem;
+
+    }
+
+    .bienvenidos {
+        margin-left: 0;
+
+    }
+
+    .linkedin {
+        margin-left: 0;
+
+    }
+
+    .sobremi {
+        padding-top: 6rem;
+        text-align: center;
+
+    }
+
+    .tarjetas {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card {
+        
+        max-width: 80%;
+        max-height: 25%;
+        margin-right: 0rem;
+        text-align: center;
+        padding: 1rem;
+        border: 0.5rem solid rgb(36, 255, 255);
+        border-style: ridge;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+
+    }
+    .card p{
+        font-size: 1rem;
+
+    }
+    .card h4{
+        font-size: 1.3rem;
+
+    }
+
+    .git{
+        margin-left: 0%;
+
+    }
+
+    .card:first-child {
+        margin-left: 0rem;
+
+    }
+
+    .estudio,
+    .contskills {
+        padding-bottom: 2rem;
+        margin-left: 0rem;
+
+    }
+
+    .lenguajes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .lenguajes img {
+        transition: ease 0.3s;
+        width: 10%;
+
+    }
+
+    .contactos {
+        align-items: center;
+        flex-direction: column;
+       padding: 0;
+
+    }
+    
+    .contactos img{
+        transform: scale(1.4);
+    }
+
+    .contactos h3{
+        font-size: 1.4;
+    }
+
+    .email {
+        font-size: 1.4rem;
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+
+    }
+
+    .descarga {
+        font-size: 1.4rem;
+        padding: 0.75rem;
+        border-radius: 1rem;
+        text-decoration: none;
+        margin-top: 1rem;
+        margin-left: 0rem;
+
+    }
+
+    .porfolio,
+    .estudios,
+    .contactame,
+    .habilidades {
+        font-size: 3rem;
+        text-align: center;
+        
+    }
+
+
+    .personaje{
+        display: none;
+    }
+
+    @media(max-width: 620px) {
+
+        .linkedin{
+            display: none;
+    
+        }
+    
+        .conth {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+    
+        }
+    
+        .conth section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+    
+        }
+    
+        .presentacion {
+            padding-top: 1rem;
+            text-align: center;
+    
+        }
+    
+        .nombre {
+            font-size: 3.3rem;
+    
+        }
+    
+        .bienvenidos {
+            margin-left: 0;
+    
+        }
+    
+        .linkedin {
+            margin-left: 0;
+    
+        }
+    
+        .sobremi {
+            padding-top: 6rem;
+            text-align: center;
+    
+        }
+    
+        .tarjetas {
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+        }
+    
+        .card {
+            
+            max-width: 100%;
+            max-height: 25%;
+            margin-right: 0rem;
+            text-align: center;
+            padding: 1rem;
+            border: 0.5rem solid rgb(36, 255, 255);
+            border-style: ridge;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+    
+        }
+    
+        .git{
+            margin-left: 0%;
+    
+        }
+    
+        .card:first-child {
+            margin-left: 0rem;
+    
+        }
+    
+        .estudio,
+        .contskills {
+            padding-bottom: 2rem;
+            margin-left: 0rem;
+    
+        }
+    
+        .lenguajes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+    
+        }
+    
+        .lenguajes img {
+            transition: ease 0.3s;
+            width: 20%;
+    
+        }
+    
+    .email {
+        font-size: 1.2rem;
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+    
+    }
+        .contactame {
+            font-size: 2rem;
+            text-align: center;
+           
+        } 
+        .habilidades{
+            font-size: 2rem;
+    
+        }
+    
+        .personaje{
+            display: none;
+        }
+    
+        
+    
+    }
 
 
 @media(max-width: 420px) {
@@ -509,9 +792,7 @@ body{
         padding: 0.75rem;
         border-radius: 1rem;
         text-decoration: none;
-        background-color: rgb(36, 255, 255);
         margin-left: 0rem;
-        border-color: rgb(36, 255, 255, 0.5);
 
     }
 
@@ -539,3 +820,4 @@ body{
     
 
 }
+ }
