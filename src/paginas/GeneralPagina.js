@@ -75,9 +75,9 @@ const GeneralPagina = (props) => {
                     </div>
 
                     <div className="card">
-                        <img className="proyectosimg" src="img/proximamente.png" alt="" ></img>
-                        <h4>Proximamente</h4>
-                        <p>Proximamente</p>
+                        <img className="proyectosimg" src="img/curriculumstackmern.jpg" alt="" ></img>
+                        <h4>Modelo de curriculum</h4>
+                        <p>Modelo paginado de curriculum y expandible agregando mas campos a los objetos</p>
                         <div className="github">
                         <div>
                            <a href="https://github.com/GGamal" target="_blank" rel="noreferrer"><img className="git" src="img/iconos/Mark.png" alt=""/></a>
@@ -113,6 +113,16 @@ const GeneralPagina = (props) => {
                 <div className="estudio">
                 <h1>Argentina programa primera etapa #YoProgramo</h1>
                 <h3>2021- 2022 (60 horas)</h3>
+                </div>
+
+                <div className="estudio">
+                <h1>Argentina programa primera etapa #YoProgramo</h1>
+                <h3>2021- 2022 (60 horas)</h3>
+                </div>
+
+                <div className="estudio">
+                <h1>Master en React: Aprender ReactJS, Hooks, MERN, NodeJS, JWT+</h1>
+                <h3>2023 (39 horas de video)</h3>
                 </div>
 
             </section>
